@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-13T08:16:21.704Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="LNS_W6XbvHbnRpHtb7P1" version="23.1.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-02-13T12:12:33.094Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="Z6v_g9ajltTF3NZ3D_MX" version="23.1.2" type="github" pages="2">
   <diagram name="IM交互" id="c7558073-3199-34d8-9f00-42111426c3f3">
     <mxGraphModel dx="3674" dy="1121" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" background="none" math="0" shadow="0">
       <root>
@@ -727,7 +727,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Lqsrd6RdxF3u2o5_hmCP" name="服务端类图">
-    <mxGraphModel dx="2554" dy="1781" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="3674" dy="2321" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -848,6 +848,33 @@
         </mxCell>
         <mxCell id="WtQ2fJZH84_gi5P_opQo-58" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="1">
           <mxGeometry x="-30" y="-170" width="1760" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="WtQ2fJZH84_gi5P_opQo-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="WtQ2fJZH84_gi5P_opQo-61" target="WtQ2fJZH84_gi5P_opQo-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WtQ2fJZH84_gi5P_opQo-61" value="自定义消息&lt;br&gt;CustomMessage&lt;br&gt;自定义消息类型 CustomType&lt;br&gt;预览文案 PreviewText" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1880" y="230" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WtQ2fJZH84_gi5P_opQo-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="WtQ2fJZH84_gi5P_opQo-62" target="WtQ2fJZH84_gi5P_opQo-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WtQ2fJZH84_gi5P_opQo-62" value="文本消息&lt;br&gt;TextMessage&lt;br&gt;Text" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2270" y="230" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WtQ2fJZH84_gi5P_opQo-63" value="ChatMessage&lt;br&gt;消息设置" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2130" y="80" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WtQ2fJZH84_gi5P_opQo-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="WtQ2fJZH84_gi5P_opQo-67" target="WtQ2fJZH84_gi5P_opQo-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WtQ2fJZH84_gi5P_opQo-67" value="BaseChat&lt;br&gt;聊天消息" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1840" y="360" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WtQ2fJZH84_gi5P_opQo-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="WtQ2fJZH84_gi5P_opQo-68" target="WtQ2fJZH84_gi5P_opQo-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WtQ2fJZH84_gi5P_opQo-68" value="BaseNotify&lt;br&gt;系统推送&lt;br&gt;跳转类型 actionType&lt;br&gt;跳转地址 actionUrl&lt;br&gt;跳转标题 actionLabel" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2010" y="360" width="130" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
