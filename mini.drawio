@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-02T14:28:06.658Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="oIAeBRSb7gl8n65FGCi0" version="23.1.6" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-02T14:55:44.744Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="UASMfxgL7p_IHYlraaM0" version="23.1.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2501" dy="1964" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -12,7 +12,7 @@
         </mxCell>
         <mxCell id="xUtmV8FWCzUYATDFEh71-2" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="710" y="1190" as="sourcePoint" />
+            <mxPoint x="710" y="1450" as="sourcePoint" />
             <mxPoint x="710" y="-40" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -306,7 +306,7 @@
         <mxCell id="xUtmV8FWCzUYATDFEh71-115" value="检查作业" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="870" y="947.5" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="xUtmV8FWCzUYATDFEh71-116" value="&lt;h1&gt;提交作业状态&lt;/h1&gt;&lt;div&gt;&lt;div&gt;1、成功：提交执行作业成功，等待结果&lt;/div&gt;&lt;/div&gt;&lt;div&gt;2、失败：提交作业失败，一段时间后重入队列&lt;/div&gt;&lt;div&gt;3、重试：提交作业失败，立即重入队列&lt;/div&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="xUtmV8FWCzUYATDFEh71-116" value="&lt;h1&gt;提交作业状态&lt;/h1&gt;&lt;div&gt;&lt;div&gt;1、成功：提交执行作业成功，等待结果&lt;/div&gt;&lt;/div&gt;&lt;div&gt;2、失败：提交作业失败，一段时间后重入队列&lt;/div&gt;&lt;div&gt;3、重试：提交作业失败，立即重入队列&lt;/div&gt;&lt;div&gt;5、丢弃：任务结束，并通知作业失败&lt;/div&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-470" y="645" width="310" height="125" as="geometry" />
         </mxCell>
         <mxCell id="xUtmV8FWCzUYATDFEh71-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xUtmV8FWCzUYATDFEh71-118" target="xUtmV8FWCzUYATDFEh71-123">
@@ -390,6 +390,9 @@
           <mxGeometry x="286" y="1200" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xUtmV8FWCzUYATDFEh71-171" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xUtmV8FWCzUYATDFEh71-168" target="xUtmV8FWCzUYATDFEh71-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xUtmV8FWCzUYATDFEh71-408" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xUtmV8FWCzUYATDFEh71-177" target="xUtmV8FWCzUYATDFEh71-406">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xUtmV8FWCzUYATDFEh71-177" value="完成" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -852,6 +855,9 @@
         </mxCell>
         <mxCell id="xUtmV8FWCzUYATDFEh71-405" value="画详情" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1590" y="-340" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xUtmV8FWCzUYATDFEh71-406" value="作业成功&lt;br&gt;回调" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="650" y="1320" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
