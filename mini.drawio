@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-03T17:01:21.808Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="189v7KQlJ7idGSGLQ_XH" version="24.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-03T17:02:11.555Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="R3VJQ9H0Zx9DcOG1woU5" version="24.0.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2501" dy="1930" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -355,7 +355,7 @@
           <mxGeometry x="-470" y="800" width="310" height="125" as="geometry" />
         </mxCell>
         <mxCell id="xUtmV8FWCzUYATDFEh71-146" value="根据下次检查时间排序" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-120" y="805" width="127.63" height="35" as="geometry" />
+          <mxGeometry x="-133" y="805" width="127.63" height="35" as="geometry" />
         </mxCell>
         <mxCell id="xUtmV8FWCzUYATDFEh71-152" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xUtmV8FWCzUYATDFEh71-149" target="xUtmV8FWCzUYATDFEh71-151" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -889,13 +889,16 @@
           <mxGeometry x="450" y="190" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vvzJHqW-rt61Ks_fFo0X-0" value="阻塞式获取" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-120" y="832" width="127.63" height="35" as="geometry" />
+          <mxGeometry x="-160" y="832" width="127.63" height="35" as="geometry" />
         </mxCell>
         <mxCell id="vvzJHqW-rt61Ks_fFo0X-1" value="不能重复投递" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-120" y="775" width="127.63" height="35" as="geometry" />
+          <mxGeometry x="-160" y="775" width="127.63" height="35" as="geometry" />
         </mxCell>
         <mxCell id="vvzJHqW-rt61Ks_fFo0X-2" value="可以获取在队列中的进度" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-130" y="742.5" width="137.63" height="37.5" as="geometry" />
+        </mxCell>
+        <mxCell id="vvzJHqW-rt61Ks_fFo0X-3" value="可以调整任务的优先级" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-138" y="702.5" width="137.63" height="37.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
