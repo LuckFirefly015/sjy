@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-06T00:45:59.110Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="Cq7S1ut9X2Ctb8Cz_7GE" version="24.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-06T03:30:35.554Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="JpoDwI9gxEF0cA7vryup" version="24.0.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2848" dy="1750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -206,12 +206,6 @@
         <mxCell id="xUtmV8FWCzUYATDFEh71-182" value="查任务进度，单个或批量" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="650" y="190" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="xUtmV8FWCzUYATDFEh71-186" value="调整限流器" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="650" y="230" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="xUtmV8FWCzUYATDFEh71-190" value="调整限制频器" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="650" y="270" width="120" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="xUtmV8FWCzUYATDFEh71-412" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xUtmV8FWCzUYATDFEh71-191" target="xUtmV8FWCzUYATDFEh71-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -232,7 +226,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="xUtmV8FWCzUYATDFEh71-194" value="当前用户任务并行数量" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="650" y="350" width="130" height="30" as="geometry" />
+          <mxGeometry x="650" y="35" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xUtmV8FWCzUYATDFEh71-197" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xUtmV8FWCzUYATDFEh71-195" target="xUtmV8FWCzUYATDFEh71-204" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -297,9 +291,6 @@
         <mxCell id="xUtmV8FWCzUYATDFEh71-221" value="同步" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="1000" y="-340" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="xUtmV8FWCzUYATDFEh71-226" value="创建队列" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="650" y="35" width="120" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="xUtmV8FWCzUYATDFEh71-228" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=27.5;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xUtmV8FWCzUYATDFEh71-198" target="xUtmV8FWCzUYATDFEh71-201" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -321,25 +312,13 @@
         <mxCell id="xUtmV8FWCzUYATDFEh71-241" value="获取帐号" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="1890" y="577.5" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="xUtmV8FWCzUYATDFEh71-251" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xUtmV8FWCzUYATDFEh71-242" target="xUtmV8FWCzUYATDFEh71-243" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="xUtmV8FWCzUYATDFEh71-251" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xUtmV8FWCzUYATDFEh71-242" target="xUtmV8FWCzUYATDFEh71-241" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1800" y="627.5" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="xUtmV8FWCzUYATDFEh71-242" value="try方式获取&lt;br&gt;预扣资源方式&lt;br&gt;帐号类型" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="1580" y="645" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="xUtmV8FWCzUYATDFEh71-252" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xUtmV8FWCzUYATDFEh71-243" target="xUtmV8FWCzUYATDFEh71-241" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="xUtmV8FWCzUYATDFEh71-314" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xUtmV8FWCzUYATDFEh71-243" target="xUtmV8FWCzUYATDFEh71-242" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="xUtmV8FWCzUYATDFEh71-315" value="抢锁失败" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="xUtmV8FWCzUYATDFEh71-314" vertex="1" connectable="0">
-          <mxGeometry x="-0.1127" y="2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="xUtmV8FWCzUYATDFEh71-243" value="抢占锁" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1770" y="587.5" width="60" height="40" as="geometry" />
         </mxCell>
         <mxCell id="xUtmV8FWCzUYATDFEh71-245" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xUtmV8FWCzUYATDFEh71-244" target="xUtmV8FWCzUYATDFEh71-27" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -362,12 +341,6 @@
         </mxCell>
         <mxCell id="xUtmV8FWCzUYATDFEh71-244" value="非阻塞方式获取" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="1130" y="590" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="xUtmV8FWCzUYATDFEh71-250" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xUtmV8FWCzUYATDFEh71-249" target="xUtmV8FWCzUYATDFEh71-243" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="xUtmV8FWCzUYATDFEh71-249" value="block方式获取" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1580" y="527.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xUtmV8FWCzUYATDFEh71-266" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xUtmV8FWCzUYATDFEh71-256" target="xUtmV8FWCzUYATDFEh71-265" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -614,9 +587,6 @@
         </mxCell>
         <mxCell id="xUtmV8FWCzUYATDFEh71-368" value="查类型，并余额大于0的帐号" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="2008" y="427" width="160" height="53" as="geometry" />
-        </mxCell>
-        <mxCell id="xUtmV8FWCzUYATDFEh71-398" value="等待任务数量" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="650" y="80" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xUtmV8FWCzUYATDFEh71-403" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xUtmV8FWCzUYATDFEh71-401" target="xUtmV8FWCzUYATDFEh71-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
