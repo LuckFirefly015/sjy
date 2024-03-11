@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-11T15:16:33.717Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="DWe5eor2mTviUi-N76uX" version="24.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-11T15:16:54.150Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="6Rjbn9I0ifNJ0aPQbXRW" version="24.0.4" type="github">
   <diagram name="第 1 页" id="tYlTEqthePhAT1uKK9Kl">
     <mxGraphModel dx="3274" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -41,7 +41,7 @@
           <mxGeometry x="2130" y="210" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZDz0qlhMGC1fcuTrPodW-8" value="已退单" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1770" y="400" width="120" height="60" as="geometry" />
+          <mxGeometry x="1770" y="490" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZDz0qlhMGC1fcuTrPodW-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ZDz0qlhMGC1fcuTrPodW-9" target="ZDz0qlhMGC1fcuTrPodW-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -74,7 +74,7 @@
           <mxGeometry x="1580" y="210" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZDz0qlhMGC1fcuTrPodW-24" value="大神退单" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="730" y="340" width="120" height="60" as="geometry" />
+          <mxGeometry x="730" y="430" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZDz0qlhMGC1fcuTrPodW-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ZDz0qlhMGC1fcuTrPodW-29" target="ZDz0qlhMGC1fcuTrPodW-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -83,7 +83,7 @@
           <mxGeometry x="1950" y="210" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZDz0qlhMGC1fcuTrPodW-32" value="管理员/系统撤销" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="730" y="460" width="120" height="60" as="geometry" />
+          <mxGeometry x="730" y="550" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZDz0qlhMGC1fcuTrPodW-34" value="已撤销" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1770" y="150" width="120" height="60" as="geometry" />
@@ -95,13 +95,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZDz0qlhMGC1fcuTrPodW-38" value="超时未接单&lt;div&gt;10分钟&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="730" y="400" width="120" height="60" as="geometry" />
+          <mxGeometry x="730" y="490" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZDz0qlhMGC1fcuTrPodW-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="ZDz0qlhMGC1fcuTrPodW-41" target="ZDz0qlhMGC1fcuTrPodW-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZDz0qlhMGC1fcuTrPodW-41" value="超时未确认&lt;div&gt;24小时&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1150" y="400" width="120" height="60" as="geometry" />
+          <mxGeometry x="1150" y="490" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZDz0qlhMGC1fcuTrPodW-43" value="超时自动确认&lt;div&gt;48小时&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1580" y="270" width="120" height="60" as="geometry" />
@@ -113,10 +113,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="l8GR5X_attWzmNN1RUAN-3" value="取消订单" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="400" width="120" height="60" as="geometry" />
+          <mxGeometry x="350" y="490" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="l8GR5X_attWzmNN1RUAN-4" value="玩家退单弹窗" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1150" y="340" width="120" height="60" as="geometry" />
+          <mxGeometry x="1150" y="430" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
