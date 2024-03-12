@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-12T02:49:32.953Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="E6KIEEbH2dIe_NpbSH4u" version="24.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-12T13:30:36.355Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="Z9VAGUa_RnvelgydNxGj" version="24.0.4" type="github">
   <diagram name="第 1 页" id="tYlTEqthePhAT1uKK9Kl">
-    <mxGraphModel dx="4585" dy="1453" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="2794" dy="581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -117,6 +117,9 @@
         </mxCell>
         <mxCell id="l8GR5X_attWzmNN1RUAN-4" value="玩家退单弹窗" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1150" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mts4K8djyKHqSFONNfT9-34" value="创建订单&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="780" width="190" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
