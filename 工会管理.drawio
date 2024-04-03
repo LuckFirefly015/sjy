@@ -1,9 +1,38 @@
-<mxfile host="app.diagrams.net" modified="2024-04-03T10:12:10.479Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" version="24.2.1" etag="NtrKqQFAc9lM3-o6AJEC" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-03T10:14:03.455Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="E3AzwmkXnXeUdIZZ3V8d" version="24.2.1" type="github">
   <diagram name="第 1 页" id="H5NMynAmT93d1lzC5imi">
-    <mxGraphModel>
+    <mxGraphModel dx="1674" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="UpV3jbLrUo_73dQ5BLIF-1" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="740" y="1062" as="sourcePoint" />
+            <mxPoint x="740" y="30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UpV3jbLrUo_73dQ5BLIF-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="UpV3jbLrUo_73dQ5BLIF-2" target="UpV3jbLrUo_73dQ5BLIF-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UpV3jbLrUo_73dQ5BLIF-2" value="工会长" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="70" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UpV3jbLrUo_73dQ5BLIF-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UpV3jbLrUo_73dQ5BLIF-3" target="UpV3jbLrUo_73dQ5BLIF-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UpV3jbLrUo_73dQ5BLIF-3" value="发起转账" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UpV3jbLrUo_73dQ5BLIF-6" value="调用&lt;div&gt;获取工会结算周期数据&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="230" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UpV3jbLrUo_73dQ5BLIF-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UpV3jbLrUo_73dQ5BLIF-7" target="UpV3jbLrUo_73dQ5BLIF-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UpV3jbLrUo_73dQ5BLIF-7" value="检查结算周期数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
